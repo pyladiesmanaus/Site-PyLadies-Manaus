@@ -5,21 +5,40 @@
     opacity: 1;
 }
 
+.icons{
+
+}
+
+/*.eventos{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: url("../img/eventos.jpg") bottom center scroll;*/
+/*}*/
+
+/*.eventos::before{*/
+    /*z-index: 0;*/
+    /*content: ' ';*/
+    /*position: absolute;*/
+    /*top: 0; bottom: 0;*/
+    /*left: 0; right: 0;*/
+    /*background: #ffffff;*/
+    /*opacity: 0.8;*/
+/*}*/
+
 .masthead1{
     width: 100%;
     height: 100%;
-    background: url("../img/intro.jpg") no-repeat bottom center scroll !important;
+    background: url("../img/intro.jpg")  bottom center scroll !important;
 }
 
-.masthead1:before {
-    content: '';
+.masthead1::before {
+    content: ' ';
     position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
     background: #000000;
     opacity: 0.8;
 }
-
 
 .img-ladies{
     width: 60%;
@@ -29,5 +48,8 @@
     width: 50%;
 }
 
+.sobre{
+    background: #27466d;
+}
 
 

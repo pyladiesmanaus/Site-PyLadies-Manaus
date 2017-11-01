@@ -26,6 +26,7 @@ h6 {
   margin: 0 0 35px;
   letter-spacing: 1px;
   /*text-transform: uppercase; }*/
+}
 
 p {
   font-size: 16px;
@@ -146,12 +147,23 @@ a {
 
 .download-section {
   color: white;
+  width: auto;
+  height: auto;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  background-color: red;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+}
+
+.download-section:before{
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  opacity: 1;
+}
 
 #map {
   width: 100%;
