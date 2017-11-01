@@ -5,10 +5,6 @@
     opacity: 1;
 }
 
-.icons{
-
-}
-
 /*.eventos{*/
     /*width: 100%;*/
     /*height: 100%;*/
@@ -24,6 +20,10 @@
     /*background: #ffffff;*/
     /*opacity: 0.8;*/
 /*}*/
+
+#ladies{
+    background: #7a094e;
+}
 
 .masthead1{
     width: 100%;
@@ -52,4 +52,44 @@
     background: #27466d;
 }
 
+#footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: small;
+    background: #b21f2d;
+}
 
+#footer .icons {
+    margin: 0;
+}
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: 0 1.25em 0 0;
+}
+
+
+.icon{
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon > .label {
+    display: none;
+}
