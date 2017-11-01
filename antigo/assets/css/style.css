@@ -1,0 +1,16 @@
+.img-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.estilo{
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+    background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #b43c8f, #b53a3e 50%, #d1b555 95%);
+    background-size: auto, cover;
+}
+
+.img-evento{
+    width: 100px;
+    height: 100px;
+}
