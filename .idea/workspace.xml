@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e515173-095d-48a4-ae18-b9d357c9539f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/antigo/images/daniela.jpeg" afterPath="$PROJECT_DIR$/novo/img/daniela.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/antigo/images/juliany.jpg" afterPath="$PROJECT_DIR$/novo/img/juliany.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/antigo/index.html" afterPath="$PROJECT_DIR$/antigo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novo/css/style.css" afterPath="$PROJECT_DIR$/novo/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novo/index.html" afterPath="$PROJECT_DIR$/novo/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/antigo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -34,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/novo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="96" column="57" lean-forward="false" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+            <state relative-caret-position="192">
+              <caret line="110" column="79" lean-forward="false" selection-start-line="110" selection-start-column="79" selection-end-line="110" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -218,12 +213,12 @@
       <workItem from="1509326955173" duration="793000" />
       <workItem from="1509407482121" duration="3162000" />
       <workItem from="1509419519504" duration="2969000" />
-      <workItem from="1509508472354" duration="2871000" />
+      <workItem from="1509508472354" duration="3445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16644000" />
+    <option name="totallyTimeSpent" value="17218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -299,16 +294,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/antigo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/novo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="96" column="57" lean-forward="false" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+        <state relative-caret-position="192">
+          <caret line="110" column="79" lean-forward="false" selection-start-line="110" selection-start-column="79" selection-end-line="110" selection-end-column="79" />
           <folding />
         </state>
       </provider>
