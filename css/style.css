@@ -18,12 +18,30 @@
     opacity: 1;
 }
 
+.img-logo-pyladies1{
+    /*padding-top: 10px;
+    width: 180px;
+
+    /* z-index: 100; 
+    opacity: 1;*/
+
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
 .img-logo-pyladies{
     padding-top: 10px;
     width: 180px;
+
     /* z-index: 100; */
     opacity: 1;
 }
+
+
+
+
+
 
 .sobre-desc{
     padding-top: 20px;
@@ -39,11 +57,11 @@
 }
 
 .masthead1{
-    padding: 10% 0;
+    padding: 18% ;
     width: 100%;
-    height: auto;
-    position: relative;
-    background: url("../img/evento2.gif")  bottom center scroll !important;
+    height: 100%;
+    /*position: relative;*/
+    background: url("../img/evento2.gif") bottom center  scroll !important;
 }
 
 .masthead1::before {
