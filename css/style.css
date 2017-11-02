@@ -43,7 +43,9 @@
     width: 100%;
     height: auto;
     position: relative;
-    background: url("../img/evento2.gif")  bottom center scroll !important;
+    background: url("../img/banner5.gif") bottom center scroll !important;
+    background-repeat: repeat-x;
+    /*background-size: 50%;*/
 }
 
 .masthead1::before {
@@ -51,8 +53,8 @@
     position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
-    background: #330e38;
-    opacity: 0.9;
+    background: #040505;
+    opacity: 0.8;
 }
 
 .eventos h2{
