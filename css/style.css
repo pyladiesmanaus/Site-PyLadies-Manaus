@@ -5,6 +5,12 @@
     opacity: 1;
 }
 
+.banner-texto{
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+
 .img-logo-manaus{
     padding-top: 1px;
     width: 150px;
@@ -37,7 +43,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    background: url("../img/eventos.jpg")  bottom center scroll !important;
+    background: url("../img/evento2.gif")  bottom center scroll !important;
 }
 
 .masthead1::before {
@@ -45,7 +51,7 @@
     position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
-    background: #12a7a4;
+    background: #330e38;
     opacity: 0.9;
 }
 
@@ -64,7 +70,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    background: url("../img/evento2.gif") bottom center scroll !important;
+    background: url("../img/pc.jpg") bottom center scroll !important;
     z-index: -2;
 }
 
@@ -73,7 +79,7 @@
     position: absolute;
     top: 0; bottom: 0;
     left: 0; right: 0;
-    background: #331538;
+    background: #400c3a;
     opacity: 0.9;
     z-index: -1;
 }
@@ -134,4 +140,21 @@ ul.icons li {
 
 .icon > .label {
     display: none;
+}
+
+.ladies h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    /*text-transform: uppercase; }*/
+}
+
+.ladies h3{
+    padding-top: 15px;
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 300;
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    /*text-transform: uppercase; }*/
 }
