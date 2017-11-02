@@ -59,17 +59,13 @@
 .masthead1{
     padding: 18% ;
     width: 100%;
-<<<<<<< HEAD
     height: auto;
     position: relative;
-    background: url("../img/banner5.gif") bottom center scroll !important;
+    background: url("../img/banner8.gif") bottom center scroll !important;
     background-repeat: repeat-x;
     /*background-size: 50%;*/
-=======
     height: 100%;
     /*position: relative;*/
-    background: url("../img/evento2.gif") bottom center  scroll !important;
->>>>>>> 64ea2601eff1ca4b99d2c7787b62a6f590905343
 }
 
 .masthead1::before {
