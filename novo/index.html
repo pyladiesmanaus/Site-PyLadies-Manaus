@@ -12,6 +12,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
@@ -30,7 +32,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">PyLadies Manaus</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img class="img-logo" src="img/pyladies_logo.png">
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -38,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+              <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#eventos">Eventos</a>
@@ -52,93 +56,99 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="masthead masthead1">
-      <div class="intro-body">
+    <header class="masthead1">
+      <div class="">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-			  <img class="img-logo" src="img/logo.png" />
-              <h1 class="">Mulheres líderes na comunidade Python</h1>
-              <!--<p class="intro-text">Mulheres na comunidade Python</p>-->
-              <!--&lt;!&ndash;<a href="#about" class="btn btn-circle js-scroll-trigger">&ndash;&gt;-->
-                <!--&lt;!&ndash;&lt;!&ndash;<i class="fa fa-angle-double-down animated"></i>&ndash;&gt;&ndash;&gt;-->
-              <!--&lt;!&ndash;</a>&ndash;&gt;-->
-            </div>
+              <div class="banner col-md-6">
+                  <div class="text-center">
+                      <!--<h2>1° Encontro PyLadies Manaus</h2>-->
+                  </div>
+              </div>
           </div>
         </div>
       </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="sobre content-section text-center">
+    <section id="sobre" class="sobre">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            <h2>Sobre o Pyladies</h2>
-            <!--<p>PyLadies é um grupo internacional de mentoria com foco em ajudar mais e mais mulheres a se tornarem participantes ativas e líderes na comunidade open-source Python.</p>-->
+            <div class="col-md-6 sobre-desc">
+                <div class="text-center">
+                    <h2>Sobre o Pyladies</h2>
+                    <p>PyLadies é um grupo de mulheres desenvolvedoras amantes da programação em Python. O primeiro grupo foi criado por sete mulheres em Los Angeles, Estados Unidos, e logo se espalhou, tendo, atualmente, mais de 40 grupos ao redor do mundo. </p>
+                </div>
+            </div>
 
-            <p>PyLadies é um grupo de mulheres desenvolvedoras amantes da programação em Python. O primeiro grupo foi criado por sete mulheres em Los Angeles, Estados Unidos, e logo se espalhou, tendo, atualmente, mais de 40 grupos ao redor do mundo. </p>
-          </div>
-          <div class="col-md-5">
-            <img class="img-pyladies" src="img/pyladies.png">
-          </div>
-
+            <div class="col-md-6">
+                <div class="text-center">
+                    <img class="img-logo-pyladies" src="img/pyladies1.png">
+                </div>
+            </div>
+            
         </div>
+
       </div>
     </section>
 
-    <!-- Download Section -->
-    <div id="eventos" class="eventos download-section content-section text-center">
+    <!--&lt;!&ndash; Download Section &ndash;&gt;-->
+    <div id="eventos" class="eventos">
         <div class="container">
-          <h2>1° Encontro PyLadies Manaus</h2>
-          <p>Participe do nosso primeiro evento!</p>
-          <a href="https://www.facebook.com/events/187773185128023/?acontext=%7B%22ref%22%3A%223%22%2C%22ref_newsfeed_story_type%22%3A%22regular%22%2C%22feed_story_type%22%3A%22117%22%2C%22action_history%22%3A%22null%22%7D" class="btn btn-default btn-lg">Saiba mais</a>
-          <a href="https://goo.gl/forms/vwO7i5rUiLmuXbc02" class="btn btn-default btn-lg">Increva-se!</a>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>1° Encontro PyLadies Manaus</h2>
+                    <p>Participe do nosso primeiro evento!</p>
+                    <a href="https://www.facebook.com/events/187773185128023/?acontext=%7B%22ref%22%3A%223%22%2C%22ref_newsfeed_story_type%22%3A%22regular%22%2C%22feed_story_type%22%3A%22117%22%2C%22action_history%22%3A%22null%22%7D" class="btn btn-default btn-lg">Saiba mais</a>
+                    <a href="https://goo.gl/forms/vwO7i5rUiLmuXbc02" class="btn btn-default btn-lg">Inscreva-se!</a>
+                </div>
+
+            </div>
+
         </div>
-      </div>
+    </div>
 
-    <!-- Download Section -->
-    <section id="ladies" class="content-section text-center">
+    <div id="ladies" class="ladies">
+        <div class="container">
+            <div class="text-center">
+                <h2>Ladies</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <span class=""><img class="img-ladies rounded-circle" src="img/daniela.jpeg" alt="" /></span>
+                    <h3>Daniela Chaves</h3>
+                    <ul class="icons">
+                        <li><a href="https://www.facebook.com/daniela.chaves.7777" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                </div>
 
-      <h3 class="text-center">Ladies</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class=""><img class="img-ladies rounded-circle" src="img/daniela.jpeg" alt="" /></span>
-            <h3>Daniela Chaves</h3>
-            <ul class="icons">
-              <li><a href="https://www.facebook.com/daniela.chaves.7777" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-              <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            </ul>
-          </div>
+                <div class="col-md-4 text-center">
+                    <span class=""><img class="img-ladies rounded-circle" src="img/jessica.jpg"  alt="" /></span>
+                    <h3>Jéssica Tavares</h3>
+                    <ul class="icons">
+                        <li><a href="https://www.facebook.com/ajessicca" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="https://github.com/jessiccatavares" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/j%C3%A9ssicca-tavares/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                </div>
 
-          <div class="col-md-4">
-            <span class=""><img class="img-ladies rounded-circle" src="img/jessica.jpg"  alt="" /></span>
-            <h3>Jéssica Tavares</h3>
-            <ul class="icons">
-              <li><a href="https://www.facebook.com/ajessicca" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="https://github.com/jessiccatavares" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-              <li><a href="https://www.linkedin.com/in/j%C3%A9ssicca-tavares/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            </ul>
-          </div>
+                <div class="col-md-4 text-center">
+                    <span class=""><img class="img-ladies rounded-circle" src="img/juliany.jpg"  alt="" /></span>
+                    <h3>Juliany Raiol</h3>
+                    <ul class="icons">
+                        <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="https://github.com/julianyraiol" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/julianyraiol/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                </div>
+            </div>
 
-          <div class="col-md-4">
-            <span class=""><img class="img-ladies rounded-circle" src="img/juliany.jpg"  alt="" /></span>
-            <h3>Juliany Raiol</h3>
-            <ul class="icons">
-              <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="https://github.com/julianyraiol" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-              <li><a href="https://www.linkedin.com/in/julianyraiol/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            </ul>
-          </div>
         </div>
+    </div>
 
-
-      </div>
-    </section>
-
-    <!-- Footer -->
+    <!--&lt;!&ndash; Footer &ndash;&gt;-->
     <section id="footer">
       <div class="container">
         <div class="row">
@@ -146,7 +156,7 @@
             <ul class="icons text-center">
               <li><a href="https://www.facebook.com/pyladiesmanaus/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
               <li><a href="https://github.com/pyladiesmanaus" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-              <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+              <li><a href="https://plus.google.com/u/5/114899665450179153685" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
             </ul>
             <ul class="copyright text-center">© 2017 Pyladies Manaus. Todos os direitos reservados. PyLadies Manaus é parte do <a href="http://www.pyladies.com/">PyLadies </a>. PyLadies é marca registradas da <a href="https://www.python.org/psf/">Python Software Foundation</a>.</li>
             </ul>
@@ -155,7 +165,7 @@
         </div>
       </div>
     </section>
-
+<!---->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
