@@ -179,3 +179,9 @@ ul.icons li {
     letter-spacing: 1px;
     /*text-transform: uppercase; }*/
 }
+
+@media (max-width: 1024px) {
+	.masthead1{
+		height: auto;
+	}
+}
